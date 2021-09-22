@@ -3,11 +3,14 @@ import { useEffect,useState} from 'react';
 import {Table} from 'react-bootstrap';
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer, toast } from "react-toastify";
+import {useHistory} from'react-router-dom';
+
 import './Users.css';
 import { useStateValue } from '../util/Stateprovider';
 import Spinner from '../util/Spinner';
  
-const Users =()=>{
+const Users =()=>{ 
+    const history=useHistory();
     const [users,setUsers]=useState([]);
     const [{user,token},]=useStateValue();
     const [isLoading,setIsLoading]=useState(false);
@@ -22,6 +25,9 @@ const Users =()=>{
           user:'hello',
           token:foundUser.token
       })
+    }
+    else {
+      history.push("/");
     }
   }, []);
     useEffect(()=>{

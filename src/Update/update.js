@@ -2,13 +2,17 @@ import React from "react";
 import { useState,useEffect } from "react";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer, toast } from "react-toastify";
+import {useHistory} from 'react-router-dom';
+
 
 import "./update.css";
 import { Card } from "react-bootstrap";
 import { Button, Form } from "react-bootstrap";
 import { useStateValue } from "../util/Stateprovider";
 import Spinner from "../util/Spinner";
+
 const Update = () => {
+  const history =useHistory();
   useEffect(()=>{
       document.title="Update"
   },[])
@@ -23,6 +27,9 @@ const Update = () => {
           user:'hello',
           token:foundUser.token
       })
+    } 
+    else {
+      history.push("/");
     }
   }, []);
   let [input1, setInput1] = useState([]);

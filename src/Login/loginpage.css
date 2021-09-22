@@ -1,21 +1,41 @@
 .login-background-style{
-    background:linear-gradient(to right bottom, rgb(84, 146, 136),rgb(172, 66, 172));
     height:100vh;
 }
-.login-outer-style{
-    margin-left:12rem;
-    margin-right:12rem;
-    padding-top:4rem;
+
+.outer-style-login{
+    padding-top:2rem;
+    padding-left:32rem;
+    padding-right:32rem;
+    
 }
-.input-style{
-    padding-top:3rem;
-    padding-left:12rem;
-    padding-right:12rem;
+.card-alternate {
+    margin-top:2rem;
+    text-align: center;
+    padding-top:0.7rem;
 }
-.input-style1{
-    padding-top:1rem;
-    padding-left:12rem;
-    padding-right:12rem;
+.image-style{
+    width:65px;
+    height:65px;
+    border-radius:50%;
+    margin-left:8.5rem;
+    margin-bottom: 2rem;
+}
+.login-p-style{
+    margin-left:5rem;
+    font-size:1.5rem;
+}
+.card-background{
+    background-color: rgba(95, 97, 209, 0.041);
+}
+.input-style-login{
+    padding-top:2rem;
+    padding-left:1rem;
+    padding-right:1rem;
+}
+.input-style1-login{
+    
+    padding-left:1rem;
+    padding-right:1rem;
 }
 .input-button{
     margin-bottom:2rem;
@@ -28,4 +48,10 @@
 }
 .inputstyle1{
     border-color:green;
+}
+.Button {
+    margin-left:1rem;
+    padding-left:7.5rem;
+    padding-right:8rem;
+    margin-bottom: 2rem;
 }

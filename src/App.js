@@ -25,11 +25,11 @@ function App() {
             <Home />
           </Route>
           <Route path="/login" exact>
-            <Navigation />
+            
             <Login />
           </Route>
           <Route path="/register" exact>
-            <Navigation />
+            
             <Register />
           </Route>
           <Route path="/update" exact>
@@ -44,7 +44,7 @@ function App() {
             <Navigation />
             <Users />
           </Route>
-          <Redirect to="/"></Redirect>
+          <Redirect to="/"> </Redirect>
         </Switch>
       </BrowserRouter>
     </Stateprovider>
