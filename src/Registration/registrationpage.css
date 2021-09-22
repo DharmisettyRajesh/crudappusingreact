@@ -1,0 +1,22 @@
+.background-register-style {
+    background:linear-gradient(to right bottom, rgb(26, 195, 139), rgb(220, 223, 48));
+}
+.login-outer-style{
+    padding:4rem;
+}
+.input-style{
+    padding-top:3rem;
+    padding-left:12rem;
+    padding-right:12rem;
+}
+.input-style1{
+    padding-top:1rem;
+    padding-left:12rem;
+    padding-right:12rem;
+}
+.input-button{
+    padding-bottom:2rem;
+} 
+.touch-style{
+    color:red;
+}

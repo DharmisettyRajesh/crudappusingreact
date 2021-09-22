@@ -1,0 +1,25 @@
+.login-background-style{
+    background:linear-gradient(to right bottom, rgb(84, 146, 136),rgb(172, 66, 172));
+    height:100vh;
+}
+.login-outer-style{
+    margin-left:12rem;
+    margin-right:12rem;
+    padding-top:4rem;
+}
+.input-style{
+    padding-top:3rem;
+    padding-left:12rem;
+    padding-right:12rem;
+}
+.input-style1{
+    padding-top:1rem;
+    padding-left:12rem;
+    padding-right:12rem;
+}
+.input-button{
+    margin-bottom:2rem;
+}
+.errmsg{
+    color:red;
+}
